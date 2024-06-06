@@ -1,0 +1,31 @@
+@use 'variaveis';
+
+.header {
+    padding: 0 8.50vw;
+    background-color: transparent;
+
+    &__container {
+        padding: 24px 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 9.5rem;
+        height: 2.5rem;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+
+        &__item {
+            display: flex;
+            margin-left: 24px;
+            font-size: 0.875rem;
+            align-items: center;
+
+        }
+    }
+}

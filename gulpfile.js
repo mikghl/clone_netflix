@@ -18,7 +18,7 @@ function images() {
 const uglify = require('gulp-uglify');
 
 function scripts() {
-    return gulp.src('./src/script/*.js')
+    return gulp.src('./src/scripts/*.js')
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js'));
 }
