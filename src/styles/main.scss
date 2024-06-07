@@ -60,7 +60,7 @@ body {
     color: variaveis.$corTextLink;
     text-decoration: underline;
     text-decoration-color: variaveis.$corTextLink;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .link-text-small {
@@ -168,5 +168,55 @@ input {
 
     option {
         color: variaveis.$corDeFundo;
+    }
+}
+
+/* Media Query */
+
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+        padding: 2rem 5vw;
+    }
+
+    .button-form {
+        font-size: 18px;
+        padding: 12px 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 2rem 3vw;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .language-selector select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .text--big {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .title--small {
+        font-size: 18px;
     }
 }

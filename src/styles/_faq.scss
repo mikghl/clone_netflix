@@ -59,4 +59,24 @@
         text-align: center;
         margin-top: 2.85rem;
     }
+
+    @media (max-width: 768px) {
+        padding: 2rem 5vw;
+
+        &__questions {
+            &__item {
+                &-question {
+                    padding: 16px;
+                }
+
+                &-answer {
+                    padding: 0 16px;
+                }
+            }
+        }
+
+        &__form {
+            margin-top: 2rem;
+        }
+    }
 }

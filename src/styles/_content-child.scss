@@ -10,3 +10,24 @@
     max-width: 80.81vh;
     height: 60vh;
 }
+
+@media (max-width: 1024px) {
+    .content__child-img {
+        max-width: 60vh;
+        height: 45vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .content__child-img {
+        max-width: 50vh;
+        height: 37vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .content__child-img {
+        max-width: 40vh;
+        height: 30vh;
+    }
+}

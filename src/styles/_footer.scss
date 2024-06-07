@@ -40,4 +40,20 @@
             }
         }
     }
+
+    @media (max-width: 768px) {
+        padding: 2rem 5vw;
+
+        &__links {
+            justify-content: flex-start;
+
+            &__column {
+                flex-basis: calc(50% - 10px);
+
+                &:first-child {
+                    flex-basis: 100%;
+                }
+            }
+        }
+    }
 }
