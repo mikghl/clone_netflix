@@ -90,9 +90,27 @@
     }
 }
 
+@media (max-width: 461px) {
+    .hero-wrapper {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 419px) {
+    .hero-wrapper {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero-wrapper {
+        height: 100vh;
+    }
+}
+
 @media (max-width: 375px) {
     .hero-wrapper {
-        height: 120vh;
+        height: 100vh;
     }
 }
 
