@@ -32,7 +32,7 @@
 @media (max-width: 1024px) {
     .header {
         padding: 0 5vw;
-        display: block;
+        display: inline-block;
 
         &__container {
             padding: 16px 32px;
@@ -56,6 +56,7 @@
 @media (max-width: 768px) {
     .header {
         padding: 0 3vw;
+        display: inline-flex;
 
         &__container {
             padding: 12px 24px;
@@ -80,6 +81,7 @@
 
 @media (max-width: 480px) {
     .header {
+
         padding: 0 2vw;
 
         &__container {

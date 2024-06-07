@@ -58,6 +58,38 @@
     }
 }
 
+@media (max-width: 907px) {
+    .content__container {
+        &-pc-image {
+            max-width: 50vh;
+            height: 37vh;
+        }
+
+        &-gif {
+            top: 15%;
+            left: 12%;
+            width: 35%;
+            height: 40%;
+        }
+    }
+}
+
+@media (max-width: 831px) {
+    .content__container {
+        &-pc-image {
+            max-width: 50vh;
+            height: 37vh;
+        }
+
+        &-gif {
+            top: 15%;
+            left: 12%;
+            width: 35%;
+            height: 50%;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .content__container {
         &-pc-image {
@@ -105,6 +137,8 @@
         }
     }
 }
+
+
 
 
 @media (max-width: 375px) and (max-height: 667px) {
